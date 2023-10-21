@@ -1,0 +1,84 @@
+ ToDoList.css
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f08282;
+}
+.main_div {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+li{
+  list-style: none;
+}
+
+
+h1
+{
+  color: black;
+  font-size: 50px;
+  margin-bottom: 30px;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  letter-spacing:0.02857em;
+  text-transform:uppercase;
+  text-shadow: 5px 5px 15px -5px black;
+}
+input{
+  text-align: center;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid gray;
+  outline: none;
+  margin: 20px;
+
+}
+.newBtn {
+  width: 50px;
+  height: 55px;
+  background-color: aqua;
+  color: white; /* Add this line to set the color */
+  box-shadow: 5px 5px 15px -5px black;
+  border-radius: 50% !important;
+}
+
+.newBtn:hover{
+  color: green;
+  background-color: white;
+}
+
+.todo_style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #8f8d8d;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.todo_style .MuiSvgIcon-root {
+  margin-left: 10px; /* Add some left margin to the delete icon */
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #f00;
+}
+
+
+
+.add{
+  color:"blue";
+}
+
